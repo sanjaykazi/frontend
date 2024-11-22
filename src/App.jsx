@@ -20,7 +20,6 @@ function App() {
       console.error("Error fetching products:", error);
     }
   };
-
   useEffect(() => {
     fetchProducts();
   }, []);
