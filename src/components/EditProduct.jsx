@@ -34,6 +34,7 @@ const EditProduct = ({ fetchProducts }) => {
     fetchProduct();
   }, [id]);
 
+  
   const handleUpdate = async () => {
     try {
       const response = await fetch(`http://localhost:3000/api/products/${id}`, {
