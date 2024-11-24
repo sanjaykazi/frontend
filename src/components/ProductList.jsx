@@ -13,7 +13,7 @@ const ProductList = ({ products, fetchProducts }) => {
       });
 
       if (response.ok) {
-        alert("Product deleted successfully!");
+        alert("Product deleted successfully!!");
         fetchProducts();
       } else {
         throw new Error("Failed to delete product");
