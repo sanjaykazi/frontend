@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import AddProduct from "./components/AddProduct";
-import ProductList from "./components/ProductList"
-import EditProduct from "./components/EditProduct"
+import ProductList from "./components/ProductList";
+import EditProduct from "./components/EditProduct";
 import './App.css'
 function App() {
   const [products, setProducts] = useState([]);
